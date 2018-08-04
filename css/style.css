@@ -224,11 +224,11 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li a {
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: gold;
   letter-spacing: .65px;
   padding: 0px;
   line-height: 118px;
@@ -1210,13 +1210,13 @@ i:before {
 }
 
 .shap_slider_inner .owl-dots {
-  text-align: right;
+  text-align: center;
   margin-top: 70px;
 }
 
 .shap_slider_inner .owl-dots .owl-dot {
-  height: 6px;
-  width: 6px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: #fff;
   display: inline-block;
@@ -2426,8 +2426,31 @@ i:before {
   color: #fff;
 }
 
+.btn-warning {
+  width: auto;
+  height: auto;
+  font-size: 50px;
+  color: white;
+}
+
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+video {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
