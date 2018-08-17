@@ -289,7 +289,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
-  color: #97ccfe;
+  color: gold;
 }
 
 @media (min-width: 992px) {
@@ -416,7 +416,7 @@ i:before {
 .main_slider_area .rev_slider .tp-bullets .tp-bullet {
   height: 10px;
   width: 10px;
-  background: #b3adff;
+  background: gold;
   border: 5px solid #fff;
 }
 
@@ -427,10 +427,10 @@ i:before {
 
 .main_slider_area .rev_slider .tp-leftarrow, .main_slider_area .rev_slider .tp-rightarrow {
   height: 120px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(gold), color-stop(51%, brown), to(gold));
+  background-image: -webkit-linear-gradient(left, gold 0%, brown 51%, gold 100%);
+  background-image: -o-linear-gradient(left, gold 0%, brown 51%, gold 100%);
+  background-image: linear-gradient(to right, gold 0%, brown 51%, gold 100%);
   background-size: 200% auto;
   width: 138px;
   border: 10px solid rgba(204, 241, 255, 0.5);
@@ -1228,7 +1228,7 @@ i:before {
 }
 
 .shap_slider_inner .owl-dots .owl-dot.active {
-  background: #97ccfe;
+  background: gold;
 }
 
 .text_3d {
@@ -1484,7 +1484,7 @@ i:before {
 
 .touch_details h5 {
   font-size: 18px;
-  color: #97ccfe;
+  color: gold;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   display: block;
@@ -1647,7 +1647,7 @@ i:before {
 .modal-message .modal-dialog .modal-content .modal-header h2 {
   display: block;
   text-align: center;
-  color: #97ccfe;
+  color: gold;
   padding-bottom: 10px;
 }
 
@@ -2453,4 +2453,20 @@ hr {
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.modal {
+  position: absolute;
+  margin-top: 50px;
+  top: 10px;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
 }
